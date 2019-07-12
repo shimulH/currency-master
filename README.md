@@ -44,7 +44,7 @@ $ NODE_ENV=production node app
 
 ### Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started), [ReactJS](https://reactjs.org/), [Bootstrap4](https://getbootstrap.com/), [Netlify](https://www.netlify.com/).
 
 ### Todos/Limitations
 
