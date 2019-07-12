@@ -2,46 +2,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # CurrencyMaster
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/shimulH/currency-master)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+- Demo - https://currency-master.netlify.com/
 
-CurrencyMaster is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+CurrencyMaster is a cloud-based currency converter, it can convert currencies into 32 world currencies. Visitors can also see their recent conversions with date and time included.
 
-- Type some Markdown on the left
-- See HTML in the right
-- Magic
+# Process!
 
-# New Features!
-
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-
-You can also:
-
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is _actually_ written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+- React - Used Pure-React (without Redux/ContextAPI) for creating UI and DOM manipulation.
+- Bootstrap - Its fast, easy to manage and easy to setup.
+- FontAwesome - for icons.
+- Google Fonts - for fonts.
+- Chrome-Developer-tools - for testing and managing.
 
 ### Tech
 
 CurrencyMaster uses a number of open source projects to work properly:
 
-- [ReactJS] - HTML enhanced for web apps!
-- [Bootstrap4] - great UI boilerplate for modern web apps
-- [Netlify] - Deploy the app online.
+- [ReactJS](https://reactjs.org/) - HTML enhanced for web apps!
+- [Bootstrap4](https://getbootstrap.com/) - great UI boilerplate for modern web apps
+- [Netlify](https://www.netlify.com/) - Deploy the app online.
 - [OpenRates](https://openrates.io/) - OpenRates delivers accurate and up-to-date exchange rate data for 32 world currencies in JSON format. All currency data is sourced from the European Central Bank and updated daily at around 4:00pm CET.
 
 And of course Dillinger itself is open source with a [public repository][dill]
@@ -72,8 +53,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ### Todos
 
-- Write MORE Tests
-- Add Night Mode
+- Better 3rd party API with more conversion options
+- Backend for better history management
+- Polishing and fine tuning UI and UX.
+- Write Tests
+- Include Share options to let user share their current conversions by email and other social media.
 
 ## License
 
