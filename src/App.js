@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import CurrencyConverter from "./components/CurrencyConverter";
-import PaperSheet from "./components/sample";
 
 function App() {
   return (

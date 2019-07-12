@@ -5,13 +5,13 @@ export default function RecentConversions({ selectHandler, recentSearches }) {
     <select
       className='form-control mt-2'
       name='resent'
-      onChange={event => console.log(event.target.value)}
+      // onChange={event => console.log(event.target.value)}
       // value={this.state.toCurrency}
     >
       {recentSearches.map((search, index) => (
-        <option key={index}>{`${search._fromCurrency} To ${
+        <option key={index}>{`${search._fromCurrency} to ${
           search._toCurrency
-        } ->  ${search._result.toFixed(2)}`}</option>
+        } ->  ${search._result.toFixed(2)} -- ${search._time}`}</option>
       ))}
     </select>
   );
