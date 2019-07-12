@@ -9,6 +9,7 @@ CurrencyMaster is a cloud-based currency converter, it can convert currencies in
 ## Process!
 
 - React - Used Pure-React (without Redux/ContextAPI) for creating UI and DOM manipulation.
+- Promises - Managing API and asynchronous calls.
 - Bootstrap - Its fast, easy to manage and easy to setup.
 - FontAwesome - for icons.
 - Google Fonts - for fonts.
