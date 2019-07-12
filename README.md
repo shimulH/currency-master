@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # CurrencyMaster
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/shimulH/currency-master)
@@ -8,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 CurrencyMaster is a cloud-based currency converter, it can convert currencies into 32 world currencies. Visitors can also see their recent conversions with date and time included.
 
-# Process!
+## Process!
 
 - React - Used Pure-React (without Redux/ContextAPI) for creating UI and DOM manipulation.
 - Bootstrap - Its fast, easy to manage and easy to setup.
@@ -24,9 +22,6 @@ CurrencyMaster uses a number of open source projects to work properly:
 - [Bootstrap4](https://getbootstrap.com/) - great UI boilerplate for modern web apps
 - [Netlify](https://www.netlify.com/) - Deploy the app online.
 - [OpenRates](https://openrates.io/) - OpenRates delivers accurate and up-to-date exchange rate data for 32 world currencies in JSON format. All currency data is sourced from the European Central Bank and updated daily at around 4:00pm CET.
-
-And of course Dillinger itself is open source with a [public repository][dill]
-on GitHub.
 
 ### Installation
 
@@ -47,11 +42,11 @@ $ npm install --production
 $ NODE_ENV=production node app
 ```
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Todos
+### Todos/Limitations
 
 - Better 3rd party API with more conversion options
 - Backend for better history management
